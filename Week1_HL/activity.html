@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <!--Head tag-->
+    <link rel="stylesheet" type="text/css" href="myStyles.css"/>
+    <title>Activity</title>
+    <!-- for FF, Chrome, Opera -->
+    <link rel="icon" href="bell.jpg" type="image/jpg"/>
+
+ <!--   <script>  
+    function page_redirect() {  
+    location.replace("profile.html")  
+    } 
+    </script>  -->
+
+    </head>
+    <hr>
+    <body>
+    <!--Body tag-->
+    <center><h1>My Activity</h1></center>
+    <!--Image: .jpg|.jpeg|.png|.gif-->
+    <center><img src ="isa_Image_1a.png" alt="IT World PC Internet" width="1000px" height ="718px"></center>
+    <hr>
+    <nav>
+    <center><p><a href="home.html" rel="icon" type="heart.png" target="frame">Home</a>     |    <a href="profile.html" taget="frame">My Profile</a>    |    <a href="activity.html" target="frame">My Activity</a></p></center>
+    </nav>
+    <br>
+    <br>
+    <center><h2>User Registration</h2></center>
+
+<body>
+
+     <!--Rowspan Table-->
+        <center>
+        <table border="1" width="800px" height="700px" class="container">
+        <tr>
+        <!--Form-->
+        <!--<form id="signup" class="form" action="profile.html" method="post" onsubmit="return validateForm()" > -->
+        <form id="signup" class="form" method="post">
+        <field-set><br>
+        <th><center><h1>Personal Information:</h1></th>
+        <th><center><h1>Educational Information:</h1></th>
+        </tr>
+            <br>
+            <td><center><label>First Name: </label>
+            <div class="form-field">
+            <input type="text" name="fname"  id="fname" placeholder="First Name"/>
+            <small></small>
+            </div>
+            <br>
+            <label>Last Name: </label>
+            <div class="form-field">
+            <input type="text" name="lname" id="lname" placeholder="Last Name"/>
+            <small></small>
+            </div>
+            <br><br>
+            <label>Phone: </label>
+            <div class="form-field">
+            <input type="tel" name="phone" id="phone" placeholder="Phone"/>
+            <small></small>
+            </div>
+            <br>
+            <label>E-mail: </label>
+            <div class="form-field">
+            <input type="email" name="email" id="email" placeholder="E-mail"/>
+            <small></small>
+            </div>
+            <br>
+            <br><br>
+            <label>Enter your Username: </label>
+            <div class="form-field">
+            <input type="text" name="username" id="username" placeholder="Username"/>
+            <small></small>
+            </div>
+            <br>
+            <label>Enter your Password: </label>
+            <div class="form-field">
+            <input type="password" name="password" id="password" placeholder="Password"/>
+            <small></small>
+            </div>
+            <label>Confirm Password:</label>
+            <div class="form-field">
+            <input type="password" name="confirm-password" id="confirm-password" autocomplete="off" placeholder="Reenter your password"/>
+            <small></small>
+            </div>
+            <br><br>
+
+
+            <label>Select your Gender:</label><br>
+            Male<input type="radio" name="g1"/>
+            Female<input type="radio" name="g2"/>
+            <br><br></center></td>
+            <td><center><br><br>
+            <label>Select your Academy:</label><br>
+            Software<input type="checkbox" name="academy1"/><br>
+            AWS<input type="checkbox" name="academy2"/>
+            <br><br>
+            <label>Select a Subject:</label><br>
+            <select>
+            <option value="Java">Java</option>
+            <option value="HTML">HTML</option>
+            </select>
+            <br><br>
+            <label>Select your Certificate:</label><br>
+            <select>
+            <option value="Certificate1">Certificate 1</option>
+            <option value="Certificate2">Certificate 2</option>
+            <option value="Certificate3">Certificate 3</option>
+            <option value="Other">Other</option>
+            </select>
+            <br><br>
+            <label>Address:</label><br>
+            <textarea name="uaddress" rows="5" cols="20"></textarea>
+            <br>
+            <label>Select your City:</label><br>
+            <input list="city">
+            <datalist id="ucity">
+            <option value="London"></option>
+            <option value="Birmingham"></option>
+            <option value="Manchester"></option>
+            <option value="Other"></option>
+            </datalist>
+            <br><hr><br>
+            <label>Select your Color:</label><br>
+            <input type="checkbox" name="ucolor"/><input type="color"/><br><br>
+            <br><br></center></td>
+            </tr>
+            <tr>
+            <td><p>Please listen to the Audio:</p>
+            <!--audio: .mp3 | .webm-->
+            <audio src="audio.mp3" controls="controls" autoplay="autoplay" loop="loop"></audio></center></td><br><br>
+            </td>
+            <td><center><p>Please watch to the Video:</p>
+            <!--video: .mp4 | .webm-->    
+            <video src="video.webm" controls width="100"></center><b>
+            </td>
+            </tr>
+            <tr>
+            <td><center>
+            <div class="form-field">
+            <input type="submit" value="Register"  class="btn"/></center></td>
+            <small></small>
+            </div>
+            <td><center>
+            <div class="form-field">
+            <input type="reset" value="Cancel"  class="btn"/></center></td>
+            <small></small>
+            </div>
+            <tr><field-set>
+            </form>
+            <!--<script type="text/javascript" src=“app.js”><a href="profile.html" taget="frame">.</a> </script>  -->
+             
+        </table></center>
+
+    <br>
+    <br>
+
+    <script src="app.js"></script>
+
+    <div class="container">            
+        <p><center>Already registered?   <a href="login.html" target="new">Log In</a></p></center>
+    </div>
+    <br><br>
+        <center><div class="shaded">
+        <iframe width="600px" height="600px" src="session.html">    
+        <p>Sorry, Your browser does not support iframes.</p>
+        </iframe>
+        </div>
+        <br>
+    </body>
+    <footer>
+    <center>Created by - ICG Copyright © ICG - TTA 2021</center>
+    </footer>
+</html>
